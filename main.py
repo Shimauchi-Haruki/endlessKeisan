@@ -9,7 +9,7 @@ first method is repeated 'while'.
 miss=0
 import random as rd
 
-def appearQuestion():
+while miss == 0:
     number1=rd.randint(0,10)
     number2=rd.randint(0,10)
 
@@ -22,11 +22,8 @@ def appearQuestion():
         miss=1
         print("incorrect...")
         
-        print(miss)
+#       print(miss)
 
-
-while miss == 0:
-    appearQuestion() 
-    print(miss)
+#   print(miss)
 
 input("Press return...")
